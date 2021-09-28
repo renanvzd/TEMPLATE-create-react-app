@@ -1,14 +1,9 @@
-// import { Banner } from "../Components/Carousel";
-// import { SectionA } from "../Components/SectionA";
-// import { SectionB } from "../Components/SectionB";
+import FirstBlockGeneral from "../Components/SectionStructure/General/blockOne";
 
 export function Home() {
   return (
     <>
-        {/* <Banner />
-        <SectionA />
-        <SectionB /> */}
-        Página Inicial
+        <FirstBlockGeneral />
     </>
   );
 }
