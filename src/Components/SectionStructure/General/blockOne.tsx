@@ -1,11 +1,11 @@
-import { Container } from './styles';
+import { FadeInLeftText } from './styles';
 
 function FirstBlockGeneral() {
     return (
         <div>
-            <Container>
+            <FadeInLeftText>
                 <h1>Bloco Um</h1>
-            </Container>
+            </FadeInLeftText>
             <hr></hr>
         </div>
     )
