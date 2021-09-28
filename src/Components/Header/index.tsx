@@ -1,16 +1,39 @@
-// import logoImg from '../../assets/logo.svg'
-import { Container, Content } from './styles'
+import { Link } from 'react-router-dom';
+import { Navbar } from "../Navbar";
+// import logoImg from '../../Assets/.png'
+import { Container, Content, Menu } from './styles'
 
 export function Header() {
   return (
     <Container >
+      <Navbar />
       <Content>
-      {/* <img src={logoImg} alt="" /> */}
-      <button type="button">
-        Botão Responsivo
-      </button>
+        <Link to="/">
+          {/* <img src={logoImg} alt="Nome da Empresa" /> */}
+          <p>Logo da Empresa</p>
+        </Link>
+      </Content>      
       
-      </Content>
+      <Menu>
+        <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/quem-somos">Quem Somos</Link>
+          </li>
+          <li>
+            <Link to="/">Outro Menu</Link>
+          </li>
+          <li>
+            <Link to="/">Outro Menu</Link>
+          </li>
+          <li>
+            <Link to="/contatos">Fale Conosco</Link>
+          </li>
+        </ul>
+      </Menu>
+    
     </Container>
   )
 }
