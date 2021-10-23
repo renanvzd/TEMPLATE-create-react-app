@@ -12,8 +12,8 @@ export function Header() {
           {/* <img src={logoImg} alt="Nome da Empresa" /> */}
           <p>Logo da Empresa</p>
         </Link>
-      </Content>      
-      
+      </Content>
+
       <Menu>
         <ul>
           <li>
@@ -26,14 +26,14 @@ export function Header() {
             <Link to="/">Outro Menu</Link>
           </li>
           <li>
-            <Link to="/">Outro Menu</Link>
+            <Link to="/faleconosco">Fale Conosco</Link>
           </li>
           <li>
-            <Link to="/contatos">Fale Conosco</Link>
+            <Link to="/contatos">Contatos</Link>
           </li>
         </ul>
       </Menu>
-    
+
     </Container>
   )
 }
